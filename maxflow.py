@@ -1,6 +1,7 @@
 # example: <https://yukicoder.me/submissions/592401>
 from collections import deque
 
+
 class MaxFlow:
     def __init__(self, N: int) -> None:
         self.N = N
@@ -28,7 +29,7 @@ class MaxFlow:
     def dfs_dinic(self, v: int, goal: int, f: int) -> int:
         if v == goal:
             return f
-        
+
         for e in self.it[v]:
             to, cap, rev = e
             if cap and self.level[v] < self.level[to]:

@@ -1,8 +1,9 @@
 # example: <https://yukicoder.me/submissions/550349>
 import numpy as np
 
+
 class NTT():
-    def __init__(self, D, MOD, root):
+    def __init__(self, D: int, MOD: int, root: int) -> None:
         self.md = MOD
         self.w = np.array([1], np.int64)
         self.iw = np.array([1], np.int64)
@@ -13,7 +14,7 @@ class NTT():
             self.w = np.r_[self.w, self.w * dw] % self.md
             self.iw = np.r_[self.iw, self.iw * dwinv] % self.md
 
-    def ntt(self, mat):
+    def ntt(self, mat: np.ndarray):
         in_shape = mat.shape
         n = in_shape[-1]
 
@@ -26,7 +27,7 @@ class NTT():
             m //= 2
         return mat.reshape(in_shape)
 
-    def intt(self, mat):
+    def intt(self, mat: np.ndarray):
         in_shape = mat.shape
         n = in_shape[-1]
 

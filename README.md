@@ -1,6 +1,6 @@
-# プログラミングコンテストのためのアルゴリズム・データ構造の Python 実装
+# Polaris: Python library for programming contests
 
-プログラミングコンテストの作問・準備作業中に書かれた典型的・汎用的なアルゴリズムやデータ構造の Python による実装です．あくまで正当性の確認のために用いられたもので，コンテスト本番での使用を仮定した速度面での最適化が施されているとは限りません．
+Polaris (Python Optimized Library of Algorithms & data structures for Reference Implementations of Solutions) はプログラミングコンテストの作問・出題準備作業中に Python / PyPy による AC 保証のために書かれた典型的・汎用的なアルゴリズムやデータ構造の Python 実装です．
 
 本コードの使用は自由ですが，これにより生じたあらゆる結果の責任は負いかねます．
 

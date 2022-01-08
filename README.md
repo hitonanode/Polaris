@@ -8,6 +8,7 @@ Polaris (Python Optimized Library of Algorithms & data structures for Reference 
 
 - `dsu.py`
 - `fenwick.py`
+- `isprime.py`
 - `maxflow.py` : [yukicoder No.1316 Maximum Minimum Spanning Tree](https://yukicoder.me/submissions/592540)
 - `ntt.py` : [yukicoder No.1241 Eternal Tours](https://yukicoder.me/submissions/550349)
 - `number.py`
